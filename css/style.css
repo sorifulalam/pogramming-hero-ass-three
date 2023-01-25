@@ -1,0 +1,28 @@
+/* font family  */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* banner background img style */
+.banner-img{
+    background-image:linear-gradient(
+        to left,
+        rgba(57, 57, 59, 0.52),
+        rgba(82, 64, 78, 0.73)
+      ), url("../img/banner.png");
+    width: auto;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    
+
+}
+/* media qury uses for curesol` */
+@media screen and (max-width: 576px) {
+    .curosol-description , .cursol-titel{
+        display: none;
+    }
+    
+}
